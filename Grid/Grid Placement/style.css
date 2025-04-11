@@ -1,0 +1,71 @@
+*
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    box-sizing: border-box;
+    color: white;
+}
+.container
+{
+    display:grid;
+    grid-template-columns:repeat(3,400px);
+    grid-template-rows: repeat(3,400px);
+    gap:20px;
+}
+.grid-one
+{
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.grid-two
+{
+    background-color:orange ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-three
+{
+    background-color:#ec0cf7 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row-start:2;
+    grid-row-end:6;
+}
+.grid-four
+{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-five
+{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-six
+{
+    background-color: firebrick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:3;
+}
+.grid-seven
+{
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

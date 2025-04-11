@@ -1,0 +1,59 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight:bold;
+}
+.One,.Two,.Three,.Four,.Five{
+    width:400px;
+    height: 400px;
+}
+.Container{
+    padding-left: 50px;
+    margin: 20px;
+}
+.One{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    margin: 30px;
+    transform: rotate(30deg);
+}
+.Two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin: 30px;
+    background-color: aqua;
+    transform: rotate3d(30deg);
+}
+.Three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-color: yellow;
+    transform: rotateY(75deg);
+}
+.Four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-color: blue;
+    transform:rotateY(50deg)
+}
+.Five{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotateZ(75deg);
+    margin: 30px;
+    background-color:greenyellow;
+}

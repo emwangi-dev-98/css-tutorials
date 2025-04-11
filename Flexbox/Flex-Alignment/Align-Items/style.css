@@ -1,0 +1,64 @@
+.container-start
+{
+    display: flex;
+    align-items: flex-start;
+}
+.container-center
+{
+    display: flex;
+    align-items: center;
+}
+.container-end
+{
+    display: flex;
+    align-items: end;
+
+}
+.container-stretch
+{
+    display: flex;
+    align-items: stretch;
+}
+.red
+{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.green
+{
+    height: 50px;
+    width: 50px;
+    background-color:green;
+}
+.blue
+{
+    height: 50px;
+    width: 50px;
+    background-color:blue ;
+}
+.purple
+{
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+}
+.black
+{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+}
+.Yellow
+{
+    height: 50px;
+    width: 50px;
+    background-color:yellow ;
+}
+.pink
+{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}

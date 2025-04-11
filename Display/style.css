@@ -1,0 +1,23 @@
+.container
+{
+    padding: 10px;
+    margin:10px;
+    display: inline;
+}
+.block-display
+{
+
+    background-color: red;
+    height:100px ;
+    width:900px ;
+}
+.inline-block-display
+{
+   
+    background-color: greenyellow;
+}
+.inline
+{
+   
+    background-color: blue;
+}

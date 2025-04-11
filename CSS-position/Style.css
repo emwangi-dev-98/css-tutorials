@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    color:white;
+    font-size: 20px;
+    font-weight: 800;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #fff;
+    justify-content: space-between;
+}
+.static{
+    text-align: center;
+    position: static;
+    border: 3px solid #fff;
+    background-color: blue;
+    height: 200px;
+    width: auto;
+}
+.relative{
+    text-align: center;
+    position: relative;
+    border: 3px solid #fff;
+    background-color:violet;
+    height: 200px;
+    width: auto;
+}
+.absolute{
+    text-align: center;
+    position: static;
+    background-color:black;
+    border: 3px solid #fff;
+    height: 200px;
+    width: auto;
+}
+.fixed{
+    text-align: center;
+    position: fixed;
+    background-color:yellow;
+    border: 3px solid #fff;
+    height: 200px;
+    width: auto;
+}
+.sticky{
+    text-align: center;
+    position: sticky;
+    background-color:green;
+    border: 3px solid #fff;
+    height: 200px;
+    width: auto;
+}

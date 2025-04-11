@@ -1,0 +1,37 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Container{
+    padding: 30px;
+}
+.One,.Two,.Three,.Four,.Five{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin:30px;
+     height: 200px;
+     width: 200px;
+}
+.One{
+    background-color: aquamarine;
+    transform: scale(0.5);
+}
+.Two{
+    background-color: red;
+    transform: scale3d(0.5,0.5,0.5);
+}
+.Three{
+    background-color:blue ;
+    transform: scaleX(2);
+}
+.Four{
+    background-color: green;
+    transform: scaleY(2);
+}
+.Five{
+    background-color: chocolate;
+    transform: scaleZ(2)
+}

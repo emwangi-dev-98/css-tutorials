@@ -1,0 +1,30 @@
+*{
+    font-family: "Underdog", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+.Container{
+    padding: 50px;
+}
+.One,.Two,.Three{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+.One{
+    background-color: coral;
+    transform: skew(30deg);
+}
+.Two{
+    background-color: teal;
+    transform: skewX(30deg);
+}
+.Three{
+    background-color: violet;
+    transform: skewY(30deg);
+}

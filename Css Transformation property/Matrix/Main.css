@@ -1,0 +1,35 @@
+*{
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-size:30px;
+    font-weight: 900;
+}
+.One,.Two,.Three,.Four,.Five,.Six{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.One{
+    background-color: aqua;
+    Transform:Matrix(1,2,-1,1,80,80)
+}
+.Two{
+    background-color:yellow;
+    Transform:Matrix(2,1,1,-1,80,80)
+
+}
+.Three{
+    background-color: burlywood;
+}
+.Four{
+    background-color: cadetblue;
+}
+.Five{
+    background-color: cornflowerblue;
+}
+.Six{
+    background-color: fuchsia;
+}
